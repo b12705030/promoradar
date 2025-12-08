@@ -55,5 +55,3 @@ pnpm-debug.log*
 
 # 忽略 Google 爬取的 CSV
 src/public/data/taipei_drinkshops_google*.csv
-
-server/env.example
