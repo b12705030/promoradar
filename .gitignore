@@ -39,7 +39,7 @@ Thumbs.db
 !/promoradar/
 !/README.md
 !/.gitignore
-!/nixpacks.toml
+!/package.json
 
 # 排除根目錄下的特定文件類型
 *.py
