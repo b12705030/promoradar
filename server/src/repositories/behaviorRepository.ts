@@ -71,5 +71,32 @@ export const behaviorRepository = {
 			console.error('[behaviorRepository] Failed to log admin action:', error);
 		}
 	},
+
+	async getPromotionStats(promoId: number): Promise<{ clickCount: number; viewCount: number }> {
+		try {
+			const db = await getMongoDb();
+			const promoIdStr = promoId.toString();
+			
+			const [clickResult, viewResult] = await Promise.all([
+				db.collection('users_behavior').countDocuments({
+					action: 'click_promo',
+					promo_id: promoIdStr,
+				}),
+				db.collection('users_behavior').countDocuments({
+					action: 'view_promo',
+					promo_id: promoIdStr,
+				}),
+			]);
+
+			return {
+				clickCount: clickResult,
+				viewCount: viewResult,
+			};
+		} catch (error) {
+			console.error('[behaviorRepository] Failed to get promotion stats:', error);
+			// 如果 MongoDB 連接失敗，返回 0
+			return { clickCount: 0, viewCount: 0 };
+		}
+	},
 };
 

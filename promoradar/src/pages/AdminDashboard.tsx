@@ -109,6 +109,8 @@ type PromotionStats = {
 	totalUsed: number;
 	remaining: number | null;
 	daily: Array<{ date: string; count: number }>;
+	clickCount?: number;
+	viewCount?: number;
 };
 
 const createDefaultPromoForm = (): PromoFormState => ({
@@ -1306,6 +1308,23 @@ const handleBrandChange =
 							</Typography>
 							<Typography>每日名額：{quota.stats.dailyQuota ?? '不限'}</Typography>
 						</Stack>
+						{(quota.stats.clickCount != null || quota.stats.viewCount != null) && (
+							<>
+								<Divider sx={{ my: 2 }} />
+								<Typography variant="subtitle2" fontWeight={600} gutterBottom>
+									互動統計
+								</Typography>
+								<Stack spacing={1.5} sx={{ mt: 1 }}>
+									<Typography>點擊次數：{quota.stats.clickCount ?? 0}</Typography>
+									<Typography>瀏覽次數：{quota.stats.viewCount ?? 0}</Typography>
+									{quota.stats.viewCount != null && quota.stats.viewCount > 0 && (
+										<Typography variant="body2" color="text.secondary">
+											轉換率：{quota.stats.totalUsed > 0 ? ((quota.stats.totalUsed / quota.stats.viewCount) * 100).toFixed(1) : 0}%
+										</Typography>
+									)}
+								</Stack>
+							</>
+						)}
 					</Box>
 					<Box flex={{ md: 1.5 }}>
 						<Typography variant="subtitle2" fontWeight={600} gutterBottom>

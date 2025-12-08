@@ -281,8 +281,11 @@ export const adminService = {
 			throw err;
 		}
 		await ensureBrandAdmin(userId, promotion.brandName);
-		const totalUsed = await userPromotionRepository.countForPromotion(promoId);
-		const daily = await userPromotionRepository.dailyUsageForPromotion(promoId, 30);
+		const [totalUsed, daily, behaviorStats] = await Promise.all([
+			userPromotionRepository.countForPromotion(promoId),
+			userPromotionRepository.dailyUsageForPromotion(promoId, 30),
+			behaviorRepository.getPromotionStats(promoId),
+		]);
 		const remaining = promotion.globalQuota != null ? Math.max(promotion.globalQuota - totalUsed, 0) : null;
 		return {
 			promotion,
@@ -292,6 +295,8 @@ export const adminService = {
 				totalUsed,
 				remaining,
 				daily,
+				clickCount: behaviorStats.clickCount,
+				viewCount: behaviorStats.viewCount,
 			},
 		};
 	},

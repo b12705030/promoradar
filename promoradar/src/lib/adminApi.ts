@@ -135,6 +135,8 @@ export async function adminGetPromotionQuota(token: string, promoId: number) {
 			totalUsed: number;
 			remaining: number | null;
 			daily: Array<{ date: string; count: number }>;
+			clickCount?: number;
+			viewCount?: number;
 		};
 	}>(
 		`/admin/promotions/${promoId}/quota`,
