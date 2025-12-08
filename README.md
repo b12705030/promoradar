@@ -72,8 +72,13 @@ npm run dev
 
 2. **部署到 Railway**
    - 註冊 https://railway.app
-   - 新建專案 → 從 GitHub 導入
-   - 設置 Root Directory 為 `server`
+   - 新建專案 → 從 GitHub 導入（選擇你的 repository）
+   - **方式一：使用 Root Directory（推薦）**
+     - 導入後，點擊服務（Service）→ Settings → Root Directory
+     - 設置 Root Directory 為 `server`
+   - **方式二：如果找不到 Root Directory 選項**
+     - 專案根目錄已包含 `nixpacks.toml` 配置文件
+     - Railway 會自動使用該配置進行構建（會自動切換到 `server/` 目錄）
    - 在 Variables 標籤添加所有環境變數（見上方後端設置）
    - Railway 會自動構建和部署
 
