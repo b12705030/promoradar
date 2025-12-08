@@ -52,26 +52,34 @@ export default function PromotionCard({ promo, now, onOpen, size = 'default' }: 
 	const compact = size === 'compact';
 	const [showAuthAlert, setShowAuthAlert] = React.useState(false);
 
-	const handleToggleFavorite = (e: React.MouseEvent) => {
+	const handleToggleFavorite = React.useCallback((e: React.MouseEvent) => {
 		e.stopPropagation();
 		if (!token) {
 			setShowAuthAlert(true);
 			setTimeout(() => navigate('/auth'), 1500);
 			return;
 		}
-		void toggleFavorite(promo.promoId, token);
-	};
-
-	const handleClick = () => {
-		// 追蹤點擊行為
-		void trackUserBehavior(token, {
-			action: 'click_promo',
-			promo_id: promo.promoId.toString(),
-			brand_name: promo.brandName,
-			tags: promo.eventTag ? [promo.eventTag] : null,
+		// 使用 startTransition 標記為非緊急更新
+		React.startTransition(() => {
+			void toggleFavorite(promo.promoId, token);
 		});
-		onOpen(promo.promoId);
-	};
+	}, [token, promo.promoId, toggleFavorite, navigate]);
+
+	const handleClick = React.useCallback(() => {
+		// 立即觸發導航（用戶體驗優先）
+		React.startTransition(() => {
+			onOpen(promo.promoId);
+		});
+		// 追蹤行為延遲執行，不阻塞 UI（使用 setTimeout 確保兼容性）
+		setTimeout(() => {
+			void trackUserBehavior(token, {
+				action: 'click_promo',
+				promo_id: promo.promoId.toString(),
+				brand_name: promo.brandName,
+				tags: promo.eventTag ? [promo.eventTag] : null,
+			});
+		}, 0);
+	}, [promo.promoId, promo.brandName, promo.eventTag, token, onOpen]);
 
 	return (
 	<Card
