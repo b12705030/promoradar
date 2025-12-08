@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+*.log
+/.vite/
+coverage/
+*.cache
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# 排除根目錄下除了 server/ 和 promoradar/ 以外的所有文件
+# 只允許 server/ 和 promoradar/ 目錄
+/*
+!/server/
+!/promoradar/
+!/README.md
+!/.gitignore
+
+# 排除根目錄下的特定文件類型
+*.py
+*.csv
+*.pyc
+*.pyo
+*.pyd
+
+# 前端特定文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 忽略 Google 爬取的 CSV
+src/public/data/taipei_drinkshops_google*.csv
+
+server/env.example
