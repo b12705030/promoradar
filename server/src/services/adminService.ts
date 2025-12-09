@@ -193,6 +193,34 @@ export const adminService = {
 			throw err;
 		}
 		await ensureBrandAdmin(userId, promotion.brandName);
+		
+		// 如果更新名額相關欄位，使用 stored procedure（包含併行控制）
+		if (payload.globalQuota !== undefined || payload.dailyQuota !== undefined || payload.perUserLimit !== undefined) {
+			const { data, error } = await promotionRepository.updateQuota(
+				promoId,
+				payload.globalQuota,
+				payload.dailyQuota,
+				payload.perUserLimit,
+			);
+			if (error) {
+				// Supabase RPC 錯誤格式：error.message 或 error.details
+				const errorMessage = error.message || error.details || '更新名額失敗';
+				const err = new Error(errorMessage);
+				(err as Error & { status?: number }).status = 400;
+				throw err;
+			}
+			// 如果還有其他欄位要更新，繼續更新
+			const otherUpdates = { ...payload };
+			delete otherUpdates.globalQuota;
+			delete otherUpdates.dailyQuota;
+			delete otherUpdates.perUserLimit;
+			if (Object.keys(otherUpdates).length > 0) {
+				return await promotionRepository.update(promoId, otherUpdates);
+			}
+			return await promotionRepository.findById(promoId) as PromotionRecord;
+		}
+		
+		// 其他更新使用一般方法
 		const updated = await promotionRepository.update(promoId, payload);
 		// 記錄 admin action
 		await behaviorRepository.logAdminAction({

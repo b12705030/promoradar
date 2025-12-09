@@ -32,8 +32,8 @@ Thumbs.db
 *.tmp
 *.temp
 
-# 排除根目錄下除了 server/ 和 promoradar/ 以外的所有文件
-# 只允許 server/ 和 promoradar/ 目錄
+# 排除根目錄下除了 server/、promoradar/ 和 docs/ 以外的所有文件
+# 只允許 server/、promoradar/ 和 docs/ 目錄
 /*
 !/server/
 !/promoradar/
@@ -48,6 +48,13 @@ Thumbs.db
 *.pyc
 *.pyo
 *.pyd
+
+# 排除 Python 虛擬環境
+venv/
+env/
+
+# 排除測試腳本（可選，如果需要可以移除這行）
+server/scripts/test_transaction_concurrency.py
 
 # 前端特定文件
 npm-debug.log*
