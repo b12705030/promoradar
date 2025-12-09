@@ -343,6 +343,40 @@ VITE_API_BASE=https://your-backend.railway.app/api
 ### 追蹤
 - `POST /api/track` - 記錄使用者行為
 
+## 💾 資料庫備份
+
+專案包含資料庫備份腳本，可用於備份 Supabase 和 MongoDB Atlas 資料庫。
+
+### 建立新備份
+
+#### Supabase (PostgreSQL) 備份
+
+在專案根目錄執行互動式備份腳本：
+
+```powershell
+.\backup_supabase.ps1
+```
+
+腳本會引導您輸入 DATABASE_URL 並選擇備份格式。備份完成後，請將備份檔案移動到 `database_backups/` 目錄。
+
+#### MongoDB Atlas 備份
+
+在專案根目錄執行互動式備份腳本：
+
+```powershell
+.\backup_mongodb_simple.ps1
+```
+
+腳本會引導您輸入 MongoDB Atlas 連接字串和資料庫名稱。備份完成後，請將備份目錄移動到 `database_backups/` 目錄。
+
+### 備份檔案位置
+
+所有備份檔案應存放在 `database_backups/` 目錄中，詳細說明請參考 [`database_backups/README.md`](database_backups/README.md)。
+
+### 還原備份
+
+備份還原方法請參考 [`database_backups/README.md`](database_backups/README.md) 中的「還原方法」章節。
+
 ## 🔒 安全注意事項
 
 1. **JWT_SECRET**：請使用強密鑰，建議使用：
@@ -355,6 +389,8 @@ VITE_API_BASE=https://your-backend.railway.app/api
 3. **CORS**：在 `server/src/server.ts` 中設置允許的前端域名
 
 4. **MongoDB Network Access**：確保 MongoDB Atlas 允許部署平台的 IP 訪問
+
+5. **備份檔案**：備份檔案可能包含敏感資料，請妥善保管，不要將包含真實密碼的連接字串提交到公開儲存庫
 
 ## 📄 授權
 

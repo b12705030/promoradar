@@ -1,0 +1,58 @@
+[
+  {
+    "_id": "6937293aa4f38e007ea0e285",
+    "admin_id": "1",
+    "action": "edit_store",
+    "timestamp": "2025-12-08T19:38:34.799Z",
+    "brand_name": "KFC",
+    "store_id": "11998"
+  },
+  {
+    "_id": "69372b21b5ecde095b5c9009",
+    "admin_id": "1",
+    "action": "create_promo",
+    "timestamp": "2025-12-08T19:46:41.134Z",
+    "brand_name": "KFC",
+    "promo_id": "128"
+  },
+  {
+    "_id": "69372b3bb5ecde095b5c900a",
+    "admin_id": "1",
+    "action": "delete_promo",
+    "timestamp": "2025-12-08T19:47:07.120Z",
+    "brand_name": "KFC",
+    "promo_id": "128"
+  },
+  {
+    "_id": "69385c845061c4ae95081b07",
+    "admin_id": "1",
+    "action": "edit_store",
+    "timestamp": "2025-12-09T17:29:40.838Z",
+    "brand_name": "KFC",
+    "store_id": "31"
+  },
+  {
+    "_id": "69385c875061c4ae95081b08",
+    "admin_id": "1",
+    "action": "edit_store",
+    "timestamp": "2025-12-09T17:29:43.220Z",
+    "brand_name": "KFC",
+    "store_id": "31"
+  },
+  {
+    "_id": "69385ce25061c4ae95081b09",
+    "admin_id": "1",
+    "action": "edit_store",
+    "timestamp": "2025-12-09T17:31:14.147Z",
+    "brand_name": "KFC",
+    "store_id": "255"
+  },
+  {
+    "_id": "69385ce45061c4ae95081b0a",
+    "admin_id": "1",
+    "action": "edit_store",
+    "timestamp": "2025-12-09T17:31:16.149Z",
+    "brand_name": "KFC",
+    "store_id": "255"
+  }
+]

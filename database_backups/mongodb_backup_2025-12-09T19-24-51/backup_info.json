@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-12-09T19:24:57.878Z",
+  "database": "coupon_radar",
+  "mongodb_uri": "mongodb+srv://***:***@coupon-radar-cluster.btnncbg.mongodb.net/?retryWrites=true&w=majority&appName=coupon-radar-cluster",
+  "collections": [
+    "users_behavior",
+    "admin_actions"
+  ],
+  "totalDocuments": 100,
+  "collectionsCount": 2
+}

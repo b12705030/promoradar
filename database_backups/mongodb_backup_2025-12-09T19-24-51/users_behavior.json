@@ -1,0 +1,1025 @@
+[
+  {
+    "_id": "693728e2a4f38e007ea0e282",
+    "user_id": "guest_::ffff:192.168.1.110_1765222625891",
+    "action": "click_promo",
+    "timestamp": "2025-12-08T19:37:06.329Z",
+    "promo_id": "30",
+    "brand_name": "CityCafe",
+    "tags": [
+      "Seasonal"
+    ]
+  },
+  {
+    "_id": "693728e3a4f38e007ea0e283",
+    "user_id": "guest_::ffff:192.168.1.110_1765222627724",
+    "action": "view_promo",
+    "timestamp": "2025-12-08T19:37:07.725Z",
+    "promo_id": "30",
+    "brand_name": "CityCafe",
+    "tags": [
+      "Seasonal"
+    ]
+  },
+  {
+    "_id": "693728e3a4f38e007ea0e284",
+    "user_id": "guest_::ffff:192.168.1.110_1765222627766",
+    "action": "view_promo",
+    "timestamp": "2025-12-08T19:37:07.766Z",
+    "promo_id": "30",
+    "brand_name": "CityCafe",
+    "tags": [
+      "Seasonal"
+    ]
+  },
+  {
+    "_id": "69372e71676d6cbb7a77eaeb",
+    "user_id": "guest_::ffff:192.168.1.110_1765224049069",
+    "action": "view_promo",
+    "timestamp": "2025-12-08T20:00:49.435Z",
+    "promo_id": "31",
+    "brand_name": "LetsCafe",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "69372e71676d6cbb7a77eaed",
+    "user_id": "guest_::ffff:192.168.1.110_1765224049092",
+    "action": "view_promo",
+    "timestamp": "2025-12-08T20:00:49.450Z",
+    "promo_id": "10",
+    "brand_name": "McDonalds",
+    "tags": [
+      "Discount_Festival"
+    ]
+  },
+  {
+    "_id": "69372e71676d6cbb7a77eaee",
+    "user_id": "guest_::ffff:192.168.1.110_1765224049088",
+    "action": "view_promo",
+    "timestamp": "2025-12-08T20:00:49.455Z",
+    "promo_id": "10",
+    "brand_name": "McDonalds",
+    "tags": [
+      "Discount_Festival"
+    ]
+  },
+  {
+    "_id": "69372e71676d6cbb7a77eaea",
+    "user_id": "guest_::ffff:192.168.1.110_1765224049036",
+    "action": "click_promo",
+    "timestamp": "2025-12-08T20:00:49.393Z",
+    "promo_id": "31",
+    "brand_name": "LetsCafe",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "69372e71676d6cbb7a77eaec",
+    "user_id": "guest_::ffff:192.168.1.110_1765224049084",
+    "action": "click_promo",
+    "timestamp": "2025-12-08T20:00:49.439Z",
+    "promo_id": "10",
+    "brand_name": "McDonalds",
+    "tags": [
+      "Discount_Festival"
+    ]
+  },
+  {
+    "_id": "69372e71676d6cbb7a77eaef",
+    "user_id": "guest_::ffff:192.168.1.110_1765224049074",
+    "action": "view_promo",
+    "timestamp": "2025-12-08T20:00:49.458Z",
+    "promo_id": "31",
+    "brand_name": "LetsCafe",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "69373ddfa809a85a678b7bef",
+    "user_id": "guest_::ffff:100.64.0.2_1765227997858",
+    "action": "view_promo",
+    "timestamp": "2025-12-08T21:06:39.285Z",
+    "promo_id": "30",
+    "brand_name": "CityCafe",
+    "tags": [
+      "Seasonal"
+    ]
+  },
+  {
+    "_id": "69373ddea809a85a678b7bee",
+    "user_id": "guest_::ffff:100.64.0.2_1765227997235",
+    "action": "click_promo",
+    "timestamp": "2025-12-08T21:06:38.793Z",
+    "promo_id": "30",
+    "brand_name": "CityCafe",
+    "tags": [
+      "Seasonal"
+    ]
+  },
+  {
+    "_id": "69373dfca809a85a678b7bf0",
+    "user_id": "guest_::ffff:100.64.0.2_1765228028866",
+    "action": "click_promo",
+    "timestamp": "2025-12-08T21:07:08.866Z",
+    "promo_id": "30",
+    "brand_name": "CityCafe",
+    "tags": [
+      "Seasonal"
+    ]
+  },
+  {
+    "_id": "69373dfca809a85a678b7bf1",
+    "user_id": "guest_::ffff:100.64.0.2_1765228028952",
+    "action": "view_promo",
+    "timestamp": "2025-12-08T21:07:08.952Z",
+    "promo_id": "30",
+    "brand_name": "CityCafe",
+    "tags": [
+      "Seasonal"
+    ]
+  },
+  {
+    "_id": "69373f9ebd365a221ffefa47",
+    "user_id": "guest_::ffff:100.64.0.3_1765228445213",
+    "action": "view_promo",
+    "timestamp": "2025-12-08T21:14:06.770Z",
+    "promo_id": "30",
+    "brand_name": "CityCafe",
+    "tags": [
+      "Seasonal"
+    ]
+  },
+  {
+    "_id": "69373f9ebd365a221ffefa46",
+    "user_id": "guest_::ffff:100.64.0.3_1765228445194",
+    "action": "click_promo",
+    "timestamp": "2025-12-08T21:14:06.765Z",
+    "promo_id": "30",
+    "brand_name": "CityCafe",
+    "tags": [
+      "Seasonal"
+    ]
+  },
+  {
+    "_id": "69373fadbd365a221ffefa48",
+    "user_id": "guest_::ffff:100.64.0.3_1765228461833",
+    "action": "click_promo",
+    "timestamp": "2025-12-08T21:14:21.833Z",
+    "promo_id": "115",
+    "brand_name": "Starbucks",
+    "tags": [
+      "Member_Exclusive"
+    ]
+  },
+  {
+    "_id": "69373fadbd365a221ffefa49",
+    "user_id": "guest_::ffff:100.64.0.3_1765228461902",
+    "action": "view_promo",
+    "timestamp": "2025-12-08T21:14:21.902Z",
+    "promo_id": "115",
+    "brand_name": "Starbucks",
+    "tags": [
+      "Member_Exclusive"
+    ]
+  },
+  {
+    "_id": "693740c3bd365a221ffefa4a",
+    "user_id": "guest_::ffff:100.64.0.3_1765228739284",
+    "action": "click_promo",
+    "timestamp": "2025-12-08T21:18:59.285Z",
+    "promo_id": "115",
+    "brand_name": "Starbucks",
+    "tags": [
+      "Member_Exclusive"
+    ]
+  },
+  {
+    "_id": "693740c3bd365a221ffefa4b",
+    "user_id": "guest_::ffff:100.64.0.3_1765228739393",
+    "action": "view_promo",
+    "timestamp": "2025-12-08T21:18:59.393Z",
+    "promo_id": "115",
+    "brand_name": "Starbucks",
+    "tags": [
+      "Member_Exclusive"
+    ]
+  },
+  {
+    "_id": "693746c7efb6e37bc7914faa",
+    "user_id": "guest_::ffff:192.168.1.110_1765230279606",
+    "action": "click_promo",
+    "timestamp": "2025-12-08T21:44:39.610Z",
+    "promo_id": "36",
+    "brand_name": "KFC",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "693746c7efb6e37bc7914fab",
+    "user_id": "guest_::ffff:192.168.1.110_1765230279712",
+    "action": "view_promo",
+    "timestamp": "2025-12-08T21:44:39.712Z",
+    "promo_id": "36",
+    "brand_name": "KFC",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "693746c7efb6e37bc7914fac",
+    "user_id": "guest_::ffff:192.168.1.110_1765230279715",
+    "action": "view_promo",
+    "timestamp": "2025-12-08T21:44:39.716Z",
+    "promo_id": "36",
+    "brand_name": "KFC",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "69378ad04fe7977994536364",
+    "user_id": "guest_::ffff:100.64.0.4_1765247696243",
+    "action": "click_promo",
+    "timestamp": "2025-12-09T02:34:56.244Z",
+    "promo_id": "30",
+    "brand_name": "CityCafe",
+    "tags": [
+      "Seasonal"
+    ]
+  },
+  {
+    "_id": "69378ad04fe7977994536365",
+    "user_id": "guest_::ffff:100.64.0.4_1765247696601",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T02:34:56.601Z",
+    "promo_id": "30",
+    "brand_name": "CityCafe",
+    "tags": [
+      "Seasonal"
+    ]
+  },
+  {
+    "_id": "69378b304fe7977994536366",
+    "user_id": "guest_::ffff:100.64.0.5_1765247792180",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T02:36:32.182Z",
+    "promo_id": "63",
+    "brand_name": "KFC",
+    "tags": [
+      "Christmas"
+    ]
+  },
+  {
+    "_id": "69378b304fe7977994536367",
+    "user_id": "guest_::ffff:100.64.0.5_1765247792185",
+    "action": "click_promo",
+    "timestamp": "2025-12-09T02:36:32.185Z",
+    "promo_id": "63",
+    "brand_name": "KFC",
+    "tags": [
+      "Christmas"
+    ]
+  },
+  {
+    "_id": "69378b684fe7977994536368",
+    "user_id": "guest_::ffff:100.64.0.5_1765247848865",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T02:37:28.865Z",
+    "promo_id": "30",
+    "brand_name": "CityCafe",
+    "tags": [
+      "Seasonal"
+    ]
+  },
+  {
+    "_id": "6937bd284fe7977994536369",
+    "user_id": "guest_::ffff:100.64.0.5_1765260584834",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T06:09:44.835Z",
+    "promo_id": "30",
+    "brand_name": "CityCafe",
+    "tags": [
+      "Seasonal"
+    ]
+  },
+  {
+    "_id": "6937bd284fe797799453636a",
+    "user_id": "guest_::ffff:100.64.0.5_1765260584839",
+    "action": "click_promo",
+    "timestamp": "2025-12-09T06:09:44.839Z",
+    "promo_id": "30",
+    "brand_name": "CityCafe",
+    "tags": [
+      "Seasonal"
+    ]
+  },
+  {
+    "_id": "6937c0df4fe797799453636b",
+    "user_id": "guest_::ffff:100.64.0.3_1765261535023",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T06:25:35.025Z",
+    "promo_id": "30",
+    "brand_name": "CityCafe",
+    "tags": [
+      "Seasonal"
+    ]
+  },
+  {
+    "_id": "6937c23a4fe797799453636c",
+    "user_id": "guest_::ffff:100.64.0.6_1765261882276",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T06:31:22.279Z",
+    "promo_id": "30",
+    "brand_name": "CityCafe",
+    "tags": [
+      "Seasonal"
+    ]
+  },
+  {
+    "_id": "6937c2464fe797799453636d",
+    "user_id": "guest_::ffff:100.64.0.6_1765261894738",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T06:31:34.738Z",
+    "promo_id": "118",
+    "brand_name": "Starbucks",
+    "tags": [
+      "Christmas"
+    ]
+  },
+  {
+    "_id": "6937c25b4fe797799453636e",
+    "user_id": "guest_::ffff:100.64.0.6_1765261915787",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T06:31:55.788Z",
+    "promo_id": "6",
+    "brand_name": "McDonalds",
+    "tags": [
+      "Discount_Festival"
+    ]
+  },
+  {
+    "_id": "6937c27c4fe797799453636f",
+    "user_id": "guest_::ffff:100.64.0.6_1765261948764",
+    "action": "click_promo",
+    "timestamp": "2025-12-09T06:32:28.764Z",
+    "promo_id": "36",
+    "brand_name": "KFC",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "6937c27c4fe7977994536370",
+    "user_id": "guest_::ffff:100.64.0.6_1765261948840",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T06:32:28.841Z",
+    "promo_id": "36",
+    "brand_name": "KFC",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "6937c2de4fe7977994536371",
+    "user_id": "guest_::ffff:100.64.0.3_1765262046621",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T06:34:06.622Z",
+    "promo_id": "31",
+    "brand_name": "LetsCafe",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "6937c38d4fe7977994536372",
+    "user_id": "guest_::ffff:100.64.0.2_1765262221517",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T06:37:01.518Z",
+    "promo_id": "36",
+    "brand_name": "KFC",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "6937c4594fe7977994536373",
+    "user_id": "guest_::ffff:100.64.0.6_1765262425946",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T06:40:25.947Z",
+    "promo_id": "52",
+    "brand_name": "KFC",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "6937c4594fe7977994536374",
+    "user_id": "guest_::ffff:100.64.0.6_1765262425951",
+    "action": "click_promo",
+    "timestamp": "2025-12-09T06:40:25.951Z",
+    "promo_id": "52",
+    "brand_name": "KFC",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "6937c8094fe7977994536375",
+    "user_id": "guest_::ffff:100.64.0.3_1765263369058",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T06:56:09.059Z",
+    "promo_id": "118",
+    "brand_name": "Starbucks",
+    "tags": [
+      "Christmas"
+    ]
+  },
+  {
+    "_id": "6937d99c4fe7977994536376",
+    "user_id": "guest_::ffff:100.64.0.6_1765267868170",
+    "action": "click_promo",
+    "timestamp": "2025-12-09T08:11:08.171Z",
+    "promo_id": "117",
+    "brand_name": "Starbucks",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "6937d99c4fe7977994536377",
+    "user_id": "guest_::ffff:100.64.0.6_1765267868301",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T08:11:08.301Z",
+    "promo_id": "117",
+    "brand_name": "Starbucks",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "6937d9af4fe7977994536378",
+    "user_id": "guest_::ffff:100.64.0.6_1765267887262",
+    "action": "click_promo",
+    "timestamp": "2025-12-09T08:11:27.262Z",
+    "promo_id": "31",
+    "brand_name": "LetsCafe",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "6937d9af4fe7977994536379",
+    "user_id": "guest_::ffff:100.64.0.6_1765267887436",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T08:11:27.437Z",
+    "promo_id": "31",
+    "brand_name": "LetsCafe",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "6937e6514fe797799453637a",
+    "user_id": "guest_::ffff:100.64.0.6_1765271121164",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T09:05:21.166Z",
+    "promo_id": "30",
+    "brand_name": "CityCafe",
+    "tags": [
+      "Seasonal"
+    ]
+  },
+  {
+    "_id": "6937f25e4fe797799453637b",
+    "user_id": "guest_::ffff:100.64.0.4_1765274206804",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T09:56:46.805Z",
+    "promo_id": "56",
+    "brand_name": "KFC",
+    "tags": [
+      "Christmas"
+    ]
+  },
+  {
+    "_id": "6937f25e4fe797799453637c",
+    "user_id": "guest_::ffff:100.64.0.4_1765274206808",
+    "action": "click_promo",
+    "timestamp": "2025-12-09T09:56:46.808Z",
+    "promo_id": "56",
+    "brand_name": "KFC",
+    "tags": [
+      "Christmas"
+    ]
+  },
+  {
+    "_id": "6937f2634fe797799453637d",
+    "user_id": "guest_::ffff:100.64.0.4_1765274211416",
+    "action": "click_promo",
+    "timestamp": "2025-12-09T09:56:51.416Z",
+    "promo_id": "60",
+    "brand_name": "KFC",
+    "tags": [
+      "New_Year"
+    ]
+  },
+  {
+    "_id": "6937f2634fe797799453637e",
+    "user_id": "guest_::ffff:100.64.0.4_1765274211457",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T09:56:51.457Z",
+    "promo_id": "60",
+    "brand_name": "KFC",
+    "tags": [
+      "New_Year"
+    ]
+  },
+  {
+    "_id": "6937f2694fe797799453637f",
+    "user_id": "guest_::ffff:100.64.0.4_1765274217708",
+    "action": "click_promo",
+    "timestamp": "2025-12-09T09:56:57.708Z",
+    "promo_id": "63",
+    "brand_name": "KFC",
+    "tags": [
+      "Christmas"
+    ]
+  },
+  {
+    "_id": "6937f2694fe7977994536380",
+    "user_id": "guest_::ffff:100.64.0.4_1765274217879",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T09:56:57.879Z",
+    "promo_id": "63",
+    "brand_name": "KFC",
+    "tags": [
+      "Christmas"
+    ]
+  },
+  {
+    "_id": "6937f2784fe7977994536381",
+    "user_id": "guest_::ffff:100.64.0.4_1765274232065",
+    "action": "click_promo",
+    "timestamp": "2025-12-09T09:57:12.065Z",
+    "promo_id": "28",
+    "brand_name": "HiCafe",
+    "tags": [
+      "Seasonal"
+    ]
+  },
+  {
+    "_id": "6937f2784fe7977994536382",
+    "user_id": "guest_::ffff:100.64.0.4_1765274232132",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T09:57:12.132Z",
+    "promo_id": "28",
+    "brand_name": "HiCafe",
+    "tags": [
+      "Seasonal"
+    ]
+  },
+  {
+    "_id": "6937f2f74fe7977994536383",
+    "user_id": "guest_::ffff:100.64.0.6_1765274359649",
+    "action": "click_promo",
+    "timestamp": "2025-12-09T09:59:19.649Z",
+    "promo_id": "1",
+    "brand_name": "HiCafe",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "6937f2f74fe7977994536384",
+    "user_id": "guest_::ffff:100.64.0.6_1765274359694",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T09:59:19.694Z",
+    "promo_id": "1",
+    "brand_name": "HiCafe",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "6937f3004fe7977994536385",
+    "user_id": "guest_::ffff:100.64.0.6_1765274368285",
+    "action": "click_promo",
+    "timestamp": "2025-12-09T09:59:28.286Z",
+    "promo_id": "7",
+    "brand_name": "McDonalds",
+    "tags": [
+      "Discount_Festival"
+    ]
+  },
+  {
+    "_id": "6937f3004fe7977994536386",
+    "user_id": "guest_::ffff:100.64.0.6_1765274368367",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T09:59:28.368Z",
+    "promo_id": "7",
+    "brand_name": "McDonalds",
+    "tags": [
+      "Discount_Festival"
+    ]
+  },
+  {
+    "_id": "6937f30a4fe7977994536387",
+    "user_id": "guest_::ffff:100.64.0.6_1765274378331",
+    "action": "click_promo",
+    "timestamp": "2025-12-09T09:59:38.331Z",
+    "promo_id": "18",
+    "brand_name": "McDonalds",
+    "tags": [
+      "Discount_Festival"
+    ]
+  },
+  {
+    "_id": "6937f30a4fe7977994536388",
+    "user_id": "guest_::ffff:100.64.0.6_1765274378502",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T09:59:38.502Z",
+    "promo_id": "18",
+    "brand_name": "McDonalds",
+    "tags": [
+      "Discount_Festival"
+    ]
+  },
+  {
+    "_id": "6937f3134fe7977994536389",
+    "user_id": "guest_::ffff:100.64.0.6_1765274387875",
+    "action": "click_promo",
+    "timestamp": "2025-12-09T09:59:47.875Z",
+    "promo_id": "1",
+    "brand_name": "HiCafe",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "6937f3134fe797799453638a",
+    "user_id": "guest_::ffff:100.64.0.6_1765274387979",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T09:59:47.980Z",
+    "promo_id": "1",
+    "brand_name": "HiCafe",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "6937f4274fe797799453638b",
+    "user_id": "guest_::ffff:100.64.0.5_1765274663822",
+    "action": "click_promo",
+    "timestamp": "2025-12-09T10:04:23.824Z",
+    "promo_id": "9",
+    "brand_name": "McDonalds",
+    "tags": [
+      "Discount_Festival"
+    ]
+  },
+  {
+    "_id": "6937f4274fe797799453638c",
+    "user_id": "guest_::ffff:100.64.0.5_1765274663826",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T10:04:23.826Z",
+    "promo_id": "9",
+    "brand_name": "McDonalds",
+    "tags": [
+      "Discount_Festival"
+    ]
+  },
+  {
+    "_id": "69380e7ea0ae5aa72d672a83",
+    "user_id": "guest_::ffff:100.64.0.3_1765281404892",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T11:56:46.468Z",
+    "promo_id": "115",
+    "brand_name": "Starbucks",
+    "tags": [
+      "Member_Exclusive"
+    ]
+  },
+  {
+    "_id": "69380e7ea0ae5aa72d672a82",
+    "user_id": "guest_::ffff:100.64.0.3_1765281404876",
+    "action": "click_promo",
+    "timestamp": "2025-12-09T11:56:46.406Z",
+    "promo_id": "115",
+    "brand_name": "Starbucks",
+    "tags": [
+      "Member_Exclusive"
+    ]
+  },
+  {
+    "_id": "6938390c14464162af548338",
+    "user_id": "guest_::ffff:100.64.0.2_1765292299076",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T14:58:20.550Z",
+    "promo_id": "115",
+    "brand_name": "Starbucks",
+    "tags": [
+      "Member_Exclusive"
+    ]
+  },
+  {
+    "_id": "6938390c14464162af548337",
+    "user_id": "guest_::ffff:100.64.0.2_1765292298918",
+    "action": "click_promo",
+    "timestamp": "2025-12-09T14:58:20.542Z",
+    "promo_id": "115",
+    "brand_name": "Starbucks",
+    "tags": [
+      "Member_Exclusive"
+    ]
+  },
+  {
+    "_id": "693858b85061c4ae95081afc",
+    "user_id": "guest_::ffff:100.64.0.2_1765300407178",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T17:13:28.605Z",
+    "promo_id": "115",
+    "brand_name": "Starbucks",
+    "tags": [
+      "Member_Exclusive"
+    ]
+  },
+  {
+    "_id": "693858b85061c4ae95081afb",
+    "user_id": "guest_::ffff:100.64.0.2_1765300406867",
+    "action": "click_promo",
+    "timestamp": "2025-12-09T17:13:28.475Z",
+    "promo_id": "115",
+    "brand_name": "Starbucks",
+    "tags": [
+      "Member_Exclusive"
+    ]
+  },
+  {
+    "_id": "693859755061c4ae95081afd",
+    "user_id": "guest_::ffff:100.64.0.3_1765300597576",
+    "action": "click_promo",
+    "timestamp": "2025-12-09T17:16:37.576Z",
+    "promo_id": "117",
+    "brand_name": "Starbucks",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "693859755061c4ae95081afe",
+    "user_id": "guest_::ffff:100.64.0.3_1765300597756",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T17:16:37.756Z",
+    "promo_id": "117",
+    "brand_name": "Starbucks",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "693859885061c4ae95081aff",
+    "user_id": "guest_::ffff:100.64.0.3_1765300616974",
+    "action": "click_promo",
+    "timestamp": "2025-12-09T17:16:56.974Z",
+    "promo_id": "36",
+    "brand_name": "KFC",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "693859895061c4ae95081b00",
+    "user_id": "guest_::ffff:100.64.0.3_1765300617018",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T17:16:57.018Z",
+    "promo_id": "36",
+    "brand_name": "KFC",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "693859be5061c4ae95081b01",
+    "user_id": "guest_::ffff:100.64.0.3_1765300670505",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T17:17:50.505Z",
+    "promo_id": "28",
+    "brand_name": "HiCafe",
+    "tags": [
+      "Seasonal"
+    ]
+  },
+  {
+    "_id": "69385bcc5061c4ae95081b02",
+    "user_id": "guest_::ffff:100.64.0.3_1765301196567",
+    "action": "click_promo",
+    "timestamp": "2025-12-09T17:26:36.568Z",
+    "promo_id": "115",
+    "brand_name": "Starbucks",
+    "tags": [
+      "Member_Exclusive"
+    ]
+  },
+  {
+    "_id": "69385bcc5061c4ae95081b03",
+    "user_id": "guest_::ffff:100.64.0.3_1765301196741",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T17:26:36.741Z",
+    "promo_id": "115",
+    "brand_name": "Starbucks",
+    "tags": [
+      "Member_Exclusive"
+    ]
+  },
+  {
+    "_id": "69385bec5061c4ae95081b04",
+    "user_id": "guest_::ffff:100.64.0.3_1765301228205",
+    "action": "click_promo",
+    "timestamp": "2025-12-09T17:27:08.205Z",
+    "promo_id": "36",
+    "brand_name": "KFC",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "69385bec5061c4ae95081b05",
+    "user_id": "guest_::ffff:100.64.0.3_1765301228268",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T17:27:08.269Z",
+    "promo_id": "36",
+    "brand_name": "KFC",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "69385c365061c4ae95081b06",
+    "user_id": "guest_::ffff:100.64.0.3_1765301302323",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T17:28:22.323Z",
+    "promo_id": "28",
+    "brand_name": "HiCafe",
+    "tags": [
+      "Seasonal"
+    ]
+  },
+  {
+    "_id": "693876b05061c4ae95081b0b",
+    "user_id": "guest_::ffff:100.64.0.2_1765308080798",
+    "action": "click_promo",
+    "timestamp": "2025-12-09T19:21:20.799Z",
+    "promo_id": "37",
+    "brand_name": "KFC",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "693876b05061c4ae95081b0c",
+    "user_id": "guest_::ffff:100.64.0.2_1765308080836",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T19:21:20.836Z",
+    "promo_id": "37",
+    "brand_name": "KFC",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "693876b75061c4ae95081b0d",
+    "user_id": "guest_::ffff:100.64.0.2_1765308087831",
+    "action": "click_promo",
+    "timestamp": "2025-12-09T19:21:27.831Z",
+    "promo_id": "55",
+    "brand_name": "KFC",
+    "tags": [
+      "Christmas"
+    ]
+  },
+  {
+    "_id": "693876b85061c4ae95081b0e",
+    "user_id": "guest_::ffff:100.64.0.2_1765308088000",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T19:21:28.001Z",
+    "promo_id": "55",
+    "brand_name": "KFC",
+    "tags": [
+      "Christmas"
+    ]
+  },
+  {
+    "_id": "693876ba5061c4ae95081b0f",
+    "user_id": "guest_::ffff:100.64.0.2_1765308090730",
+    "action": "click_promo",
+    "timestamp": "2025-12-09T19:21:30.730Z",
+    "promo_id": "55",
+    "brand_name": "KFC",
+    "tags": [
+      "Christmas"
+    ]
+  },
+  {
+    "_id": "693876ba5061c4ae95081b10",
+    "user_id": "guest_::ffff:100.64.0.2_1765308090757",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T19:21:30.758Z",
+    "promo_id": "55",
+    "brand_name": "KFC",
+    "tags": [
+      "Christmas"
+    ]
+  },
+  {
+    "_id": "693876c05061c4ae95081b11",
+    "user_id": "guest_::ffff:100.64.0.2_1765308096557",
+    "action": "click_promo",
+    "timestamp": "2025-12-09T19:21:36.557Z",
+    "promo_id": "56",
+    "brand_name": "KFC",
+    "tags": [
+      "Christmas"
+    ]
+  },
+  {
+    "_id": "693876c05061c4ae95081b12",
+    "user_id": "guest_::ffff:100.64.0.2_1765308096728",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T19:21:36.728Z",
+    "promo_id": "56",
+    "brand_name": "KFC",
+    "tags": [
+      "Christmas"
+    ]
+  },
+  {
+    "_id": "6938770f5061c4ae95081b13",
+    "user_id": "guest_::ffff:100.64.0.2_1765308175534",
+    "action": "click_promo",
+    "timestamp": "2025-12-09T19:22:55.536Z",
+    "promo_id": "36",
+    "brand_name": "KFC",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "6938770f5061c4ae95081b14",
+    "user_id": "guest_::ffff:100.64.0.2_1765308175546",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T19:22:55.546Z",
+    "promo_id": "36",
+    "brand_name": "KFC",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "693877315061c4ae95081b15",
+    "user_id": "guest_::ffff:100.64.0.2_1765308209193",
+    "action": "click_promo",
+    "timestamp": "2025-12-09T19:23:29.197Z",
+    "promo_id": "37",
+    "brand_name": "KFC",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "693877315061c4ae95081b16",
+    "user_id": "guest_::ffff:100.64.0.2_1765308209212",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T19:23:29.212Z",
+    "promo_id": "37",
+    "brand_name": "KFC",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "693877355061c4ae95081b17",
+    "user_id": "guest_::ffff:100.64.0.2_1765308213735",
+    "action": "click_promo",
+    "timestamp": "2025-12-09T19:23:33.735Z",
+    "promo_id": "37",
+    "brand_name": "KFC",
+    "tags": [
+      "Limited_Time"
+    ]
+  },
+  {
+    "_id": "693877355061c4ae95081b18",
+    "user_id": "guest_::ffff:100.64.0.2_1765308213756",
+    "action": "view_promo",
+    "timestamp": "2025-12-09T19:23:33.756Z",
+    "promo_id": "37",
+    "brand_name": "KFC",
+    "tags": [
+      "Limited_Time"
+    ]
+  }
+]

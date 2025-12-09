@@ -37,6 +37,7 @@ Thumbs.db
 /*
 !/server/
 !/promoradar/
+!/database_backups/
 !/README.md
 !/.gitignore
 !/package.json
