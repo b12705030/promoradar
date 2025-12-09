@@ -86,21 +86,24 @@ export const promotionService = {
 	},
 
 	async claim(promoId: number, userId: number) {
-		const promotion = await promotionRepository.findById(promoId);
-		if (!promotion) {
-			const err = new Error('promotion not found');
-			(err as Error & { status?: number }).status = 404;
-			throw err;
-		}
-		const existing = await userPromotionRepository.usageForPromotion(userId, promoId);
-		if (promotion.perUserLimit > 0 && existing && existing.count >= promotion.perUserLimit) {
-			const err = new Error('已達使用上限');
+		// 使用 stored procedure 來處理領取優惠（包含交易管理和併行控制）
+		// 這個 stored procedure 會：
+		// 1. 使用 SELECT FOR UPDATE 鎖定優惠記錄（併行控制）
+		// 2. 檢查所有名額限制（global_quota, daily_quota, per_user_limit）
+		// 3. 插入使用記錄
+		// 4. 所有操作在一個交易中完成（原子性）
+		const { data, error } = await promotionRepository.claimPromotion(userId, promoId);
+		if (error) {
+			// 處理 stored procedure 拋出的錯誤
+			// Supabase RPC 錯誤格式：error.message 或 error.details
+			const errorMessage = error.message || error.details || '領取優惠失敗';
+			const err = new Error(errorMessage);
 			(err as Error & { status?: number }).status = 400;
 			throw err;
 		}
-		await userPromotionRepository.addUsage(userId, promoId);
+		// 取得更新後的使用記錄
 		const usage = await userPromotionRepository.usageForPromotion(userId, promoId);
-		return { success: true, usage };
+		return { success: true, usage, quota: data };
 	},
 };
 

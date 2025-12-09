@@ -236,5 +236,30 @@ export const promotionRepository = {
 			reason: row.reason ?? undefined,
 		}));
 	},
+
+	async claimPromotion(userId: number, promoId: number): Promise<{ data: any; error: any }> {
+		// 使用 stored procedure 來處理領取優惠（包含交易管理和併行控制）
+		const { data, error } = await supabase.rpc('claim_promotion', {
+			p_user_id: userId,
+			p_promo_id: promoId,
+		});
+		return { data, error };
+	},
+
+	async updateQuota(
+		promoId: number,
+		globalQuota?: number | null,
+		dailyQuota?: number | null,
+		perUserLimit?: number | null,
+	): Promise<{ data: any; error: any }> {
+		// 使用 stored procedure 來安全地更新優惠名額（包含併行控制）
+		const { data, error } = await supabase.rpc('update_promotion_quota', {
+			p_promo_id: promoId,
+			p_global_quota: globalQuota,
+			p_daily_quota: dailyQuota,
+			p_per_user_limit: perUserLimit,
+		});
+		return { data, error };
+	},
 };
 
